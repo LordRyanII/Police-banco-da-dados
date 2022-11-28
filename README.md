@@ -4,8 +4,9 @@ No projeto minha meta foi melhorar o meu estilo de estilização com css3, e a m
 
 
 Algumas funções:
-
--login;
--Cadastro de detendos (beta);
--Design moderno;
+<br>
+<br>
+-login;<br>
+-Cadastro de detendos (beta);<br>
+-Design moderno;<br>
 
