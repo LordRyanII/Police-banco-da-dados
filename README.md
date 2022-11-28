@@ -7,6 +7,6 @@ Algumas funções:
 <br>
 <br>
 -login;<br>
--Cadastro de detendos (beta);<br>
+-Cadastro de detentos (beta);<br>
 -Design moderno;<br>
 
