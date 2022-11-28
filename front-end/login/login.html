@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="login-favicon/policeman-avatar-icon-profession-logo.jpeg" type="image/x-icon">
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+    <title>Acessar SDBP</title>
+    <!--Sistema de banco de dados Policiais-->
+    <!--Login_system_developer_for_Ryan-->
+</head>
+<body>
+    <main>
+        <div class="title">
+            <h1>
+                Agente, por favor se indentifique.
+            </h1>
+        </div>
+        <div class="login">
+            <p class="title_matri">
+                Número da matricula:
+            </p>
+            <div class="input_1">
+                <span class="error_matri">
+
+                </span>
+                <br>
+                <input type="number" name="text_1" id="text_1" placeholder="Coloque apenas número" value="">
+                <i class="fa-solid fa-user-secret" style="background-color: blue; color: white; width: 25px; height: 23px; text-align: center; padding: 1px;"></i>
+            </div>
+
+            <p class="title_password">
+                Senha de acesso <a href="#">(Primeiro login?)</a>
+            </p>
+            <div class="input_2">
+                <span class="error_password">
+                    
+                </span>
+                <br>
+                <input type="password" name="password" id="password" placeholder="Senha atual" value="">
+                <i class="fa-solid fa-lock"style="background-color: blue; color: white; width: 25px; height: 23px; text-align: center; padding: 1px;"></i>
+            </div>
+            <br>
+            <br>
+            <div class="remember">
+                <input type="checkbox" name="remember" id="remember">
+                <p>
+                    Lembrar de seu acesso?
+                </p>
+            </div>
+            <div class="button">
+            <input type="button" id="button" value="Acessar" onclick="clicar()" title="clique aqui para acessar">
+            </div>
+        </div>
+        <div class="Redefinir">
+            <p>
+                <a href="#">
+                    Esqueceu a senha?
+                </a>
+            </p>
+        </div>
+        <footer>
+            <p>
+                Criado por 
+                <span class="creator">
+                    <abbr title="">
+                    <a href="mailto:ryanoliveiram2020@outlook.com" style="color: black; text-decoration: none;">
+                        <span class="nome">Ryan Menezes</span>
+                    </a>
+                   </abbr>
+                   
+                </span>
+               <abbr title="ryan">
+                <a href="mailto:ryanoliveiram2020@outlook.com"></a>
+               </abbr>
+            </p>
+        
+        </footer>
+        <script src="https://kit.fontawesome.com/4255aa955d.js" crossorigin="anonymous"></script>
+    </main>
+    <a href="/loading/index.html"></a>
+    <script src="login.js"></script>
+</body>
+</html>

@@ -1,0 +1,101 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 0px ;
+}
+a{
+    text-decoration: none;
+    color: blue;
+}
+a:hover{
+    cursor: pointer;
+    color: crimson;
+}
+body{
+    background-image: url(login-wallpaper/circuit.jpg);
+    max-width: 1230px;
+    min-width: 250px;
+    max-height: 1500px;
+    min-height: 600px;
+}
+main{
+    background-color: white;
+    border-radius: 25px;
+    max-width: 800px;
+    min-width: 500px;
+    margin: auto;
+    margin-top: 50px;
+    padding: 50px;
+    color: black;
+}
+.title{
+    text-align: center;
+}
+.login{
+    background-color: rgb(128, 128, 128);
+    max-width: 800px;
+    min-width: 500px;
+    padding: 10px;
+}
+.title_password,
+.title_matri{
+    margin: auto;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+}
+.title_password{
+    margin-top: 30px;
+}
+
+.button > input{
+    background-color: red;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    border: none;
+    width: 250px;
+    margin-left: 240px;
+}
+
+.error_matri,
+.error_password{
+    color: red;
+    font: 8px Verdana, Geneva, Tahoma, sans-serif bold;
+}
+.passed{
+    border-radius: 50px;
+    background-color: green;
+    color: white;
+}
+.passed:hover{
+    text-decoration: none;
+}
+.remember{
+    display: flex;
+}
+.remember > p{
+    display: flex;
+    font-size: 15px;
+    margin-top: 10px;
+
+}
+#remember{
+    display: flex;
+    font-size: 25px;
+    width: 15px;
+}
+.Redefinir > p{
+    text-align: end;
+    color: crimson;
+}
+footer{
+    font-size: 10px;
+}
+footer > a{
+    text-decoration: none;
+    color: black;
+}
+.nome:hover{
+    color: red;
+    cursor: pointer;
+    text-decoration: none;
+}

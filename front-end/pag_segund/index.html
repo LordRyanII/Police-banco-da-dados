@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="imagens/favicon/policeman-avatar-icon-profession-logo.jpeg" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <title>Banco de pesquisa policial</title>
+</head>
+<body>
+    <nav>
+        <div class="home">
+            <ul>
+                <li>
+                    <a href="/pag_principal/index.html" title="Voltar a página principal?">
+                        Home
+                    </a>
+                </li>
+        </div>
+            </ul>
+        <div class="nav-princip-page">
+            <ul>
+                <li>
+                    Secretária de assistência da Justiça Civil <span class="logo-brasil"><img src="icones/bandeira-do-brasil-256.png" alt="#para_cego_ver Bandeira do Brasil, formato de ícone. Canto superior direito" style="height: 35px;"></span>
+                </li>
+            </ul>
+        </div>       
+    </nav>
+    <main>
+        <header>
+            <picture>
+                <a href="/pag_principal/index.html"title="Clique aqui e volte para a página principal!"><img src="logos/Logo_policia.png" alt="#para_cego_ver Logo representativo de todas as forças policias brasiileiras" style="max-width: 200px; height: 105px; padding-right: 25px; padding-top: 10px;"></a>
+            </picture>
+            <div class="title">
+                <h1 style="font-size: 75px;">
+                    Polícia
+                </h1>
+                <p style="display: block; padding-top: 1px; font-size: 15px; color: white; text-shadow:1px 1px black;">
+                    Departamento Brasileiro de Inventigações
+                </p>
+            </div>
+            
+        </header>
+        <div class="container">
+            <label class="picture" for="user_foto_cadastro">
+                <picture class="user_foto_cadastro" for="user_foto_cadastro">
+                    <img src="icones/prision_icon.png" alt="" srcset="" class="icone_prision" style="height:100px; width:150px; margin-top: 100px;" for="user_foto_cadastro" title="selecione o + para adicionar imagem ao banco de dados">
+                    <div class="addiciona_more">
+                        <p title="Adicionar imagem">
+                            +
+                        </p>
+                    </div>
+                    <input type="file" id="user_foto_cadastro" accept="image/*">
+                </picture>
+                <div class="dados">
+                    <div class="Nome">
+                        <h1>
+                            Nome Completo:
+                        </h1>
+                    <input type="text" name="nome_prisioner" id="nome_prisioner" style="width:280px;">
+                    </div>
+                    <label for="">
+                        <div class="Sexo">
+                            <h1>
+                                Sexo:
+                            </h1>
+                        <input list="text_1" name="sexos" id="sexos">
+                        <datalist id="text_1">
+                            <option value="Masculino"></option>
+                            <option value="Feminino"></option>
+                            <option value="Não definido"></option>
+                        </datalist>
+                        </div>
+                    <label>
+                        <div class="estado">
+                            <h1>
+                                Estado Civil:
+                            </h1>
+                        <input list="text_2" name="civil_estado" id="civil_estado">
+                        <datalist id="text_2">
+                            <option value="solteiro"></option>
+                            <option value="casado"></option>
+                            <option value="divorciado"></option>
+                            <option value="viúvo"></option>
+                        </datalist>
+                        </div>
+                    </label>
+                    </label>
+                </div>
+            </label>
+            </div>
+            <div class="rg">
+                <h1>
+                    Rg:
+                </h1>
+                <input type="number" style="width: 280px;">
+            </div>
+            <div class="cpf">
+                <h1>
+                    Cpf:
+                </h1>
+                <input type="number" style="width: 200px;">
+            </div>
+            <div class="nascimento">
+                <h1>
+                    Data de nascimento
+                </h1>
+                <input type="date" name="nascimento" id="nascimento">
+            </div>
+            <div class="endereco">
+                <h1>
+                    Endereço:
+                </h1>
+                <input type="text" name="endereco" id="endereco" style="width: 280px;">
+                <div class="number_of_endereco">
+                    <h1>
+                        Nº
+                    </h1>
+                    <input type="number" name="" id="number_for_endereco" style="width: 55px;">
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+</html>

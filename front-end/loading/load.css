@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(79, 79, 221);
+}
+@keyframes is-rotating{
+    to {
+        transform: rotate(1turn);
+    }
+}
+.loading{
+    animation: is-rotating 1s infinite;
+    border: 6px solid rgb(255, 255, 255);
+    border-top-color: green;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    margin: auto;
+    margin-top: 150px;
+}
+.texto{
+    color: white ;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    margin: auto;
+    margin-top: 120px;
+}
