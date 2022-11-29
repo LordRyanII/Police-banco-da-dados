@@ -45,6 +45,8 @@ function clicar(){
         btn.value.innerHTML = 'Redirecionando...'
         setTimeout(function(){
             localStorage.setItem('token', token)
+            const validacao_login_1 = localStorage.setItem('login-1' , JSON.stringify(login))
+            const validacao_senha_1 = localStorage.setItem('senha-1' , JSON.stringify(senha))
             window.location.href = '../loading/index.html'
         },800)
         
@@ -52,11 +54,13 @@ function clicar(){
         btn.setAttribute('class', 'passed')
         setTimeout(function(){
             localStorage.setItem('token', token)
+            const validacao_login_2 = localStorage.setItem('login-2' , JSON.stringify(login_2))
+            const validacao_senha_2 = localStorage.setItem('senha-2' , JSON.stringify(senha_2))
             window.location.href = '../loading/index.html'
         },800)
         
         
-    }
+    } 
     
 }
 
