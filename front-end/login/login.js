@@ -41,8 +41,8 @@ function clicar(){
 //Sucess 
     }else if( matri.value === login && password.value === senha){
         //alert('[SUCESSO] Redirecionando...')
-        btn.setAttribute('class', 'passed')
         btn.value.innerHTML = 'Redirecionando...'
+        btn.setAttribute('class', 'passed')
         setTimeout(function(){
             localStorage.setItem('token', token)
             const validacao_login_1 = localStorage.setItem('login-1' , JSON.stringify(login))
@@ -51,7 +51,7 @@ function clicar(){
         },800)
         
     }else if( matri.value === login_2 && password.value === senha_2){
-        btn.setAttribute('class', 'passed')
+        btn.setAttribute('id', 'passed')
         setTimeout(function(){
             localStorage.setItem('token', token)
             const validacao_login_2 = localStorage.setItem('login-2' , JSON.stringify(login_2))

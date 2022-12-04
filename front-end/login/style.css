@@ -61,12 +61,12 @@ main{
     color: red;
     font: 8px Verdana, Geneva, Tahoma, sans-serif bold;
 }
-.passed{
+#passed{
     border-radius: 50px;
     background-color: green;
     color: white;
 }
-.passed:hover{
+#passed:hover{
     text-decoration: none;
 }
 .remember{
