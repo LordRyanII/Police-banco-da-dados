@@ -1,0 +1,32 @@
+*{
+    margin: 0%;
+}
+main{
+    background-image: url(imagens/warning-yellow-black-colors_1017-30754.webp);
+    background-repeat: no-repeat;
+    background-position: center; 
+    width: 1238px;
+    height: 250px;
+}
+@keyframes is-rotating{
+    to {
+        transform: rotate(1turn);
+    }
+}
+.redire{
+    animation: is-rotating 1s infinite;
+    border: 6px solid grey;
+    border-top-color: red;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    margin: auto;
+    margin-top: 150px;
+}
+.texto{
+    color: white ;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    margin: auto;
+    margin-top: 100px;
+}
