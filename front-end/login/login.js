@@ -1,5 +1,4 @@
 //start_of_my_code
-
 function clicar(){
     const btn = window.document.querySelector('#button')
     const matri = window.document.querySelector('#text_1')

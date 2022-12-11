@@ -6,7 +6,7 @@
 
 nav{
     display: flex;
-    max-width: 1250px;
+    min-width: 1366px;
     background-color: rgb(8, 8, 82);
     text-decoration: none;
     height: 47px;
@@ -24,36 +24,37 @@ nav{
 }
 .home{
     background-image: linear-gradient(to left, gray, transparent);
+    justify-content: left;
     border-radius: 5px;
     color: white;
     width: 97px;
     height: 27px;
-    margin-right: auto;
 }
-main{
-    max-width: 1250px;
-    height: auto;
-    margin-top: 0px;
-}
+
 header{
-    background-image: linear-gradient(to top, gray ,black, red);
+    min-width: 1366px;
+    height: 150px;
     margin-top: 0px;
-    max-width: 1250px;
-    text-align: left;
+}
+.container{
+    background-image: linear-gradient(to top, gray ,black, red);
     display: flex;
+    justify-content: left;
+    margin-top: 0px;
+    text-align: left;
     padding: 5px;
     color: white;
     text-shadow: 1px 1px 1px rgb(160, 38, 38);
 }
 .search{
-    width: 450px;
+    justify-content: right;
+    width: 650px;
     height: 30px;
     text-align: left;
-    margin-top: 10px;
-    margin-left: 490px;
+    margin: 10px 0px 10px 490px;
 
 }
-section{
+.container-main{
     display: flex;
     margin-top: 0px;
     font-size: 15px;
@@ -61,20 +62,23 @@ section{
     min-width: 350px;
     max-width: 1250px;
     margin-left: -24px;
-    
 }
+
 #content{
     display:flex ;
-    margin-top: 0px;
+    justify-content: center;
+    flex-wrap: wrap;
+    min-width: 1400px;
     background-image: url(imagens/pc-destintivo.jpeg);
     background-repeat: no-repeat;
     background-position: left ;
-    min-width: 1249px;
+    height: 100vh;
 }
 .cadastro{
     background-color: rgba(255, 255, 255, 0.372);
     margin: 10px;
     border: 5px solid rgba(0, 0, 0, 0.568);
+    margin-left: 30px;
 }
 .cadastro:hover{
     background-color: rgba(255, 0, 0, 0.34);
@@ -88,12 +92,11 @@ section{
     border-radius: 5px;
 }
 .content_1 > img{
-    text-align: center;
+    justify-content: center;
     height: 150px;
     width: 150px;
     border-radius: 50%;
-    margin-top: 50px;
-    margin-left: 55px;
+    margin: 50px 0px 0px 80px;
 }
 .cadastro > p{
     margin-top: 105px;
@@ -111,12 +114,10 @@ a{
     background-color: rgba(255, 255, 255, 0.372);
     margin: 10px;
     border: 5px solid rgba(0, 0, 0, 0.568);
-    scroll-snap-type: start;
 }
 .Artigos > h1{
     text-align: center;
-    margin-top: 105px;
-    margin-left: 21px;
+    margin: 100px 0px 0px 42px;
     background-color: rgba(0, 0, 0, 0.489);
     color: white;
     text-align: center;
@@ -124,12 +125,11 @@ a{
 }
 .content_2 > img{
     text-align: center;
+    margin: 200px 0px 0px 42px;
     height: 140px;
     width: 150px;
     background-color: gray;
     border-radius: 50%;
-    margin-top: 190px;
-    margin-left: 55px;
     cursor: pointer;
 }
 .Artigos:hover{
