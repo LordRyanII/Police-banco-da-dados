@@ -38,19 +38,21 @@ function clicar(){
         password.value = ''        
     
 //Sucess 
+
     }else if( matri.value === login && password.value === senha){
         //alert('[SUCESSO] Redirecionando...')
-        btn.value.innerHTML = 'Redirecionando...'
-        btn.setAttribute('class', 'passed')
+        btn.setAttribute('class', 'passed');       
+        btn.value = 'Redirecionando...';
         setTimeout(function(){
             localStorage.setItem('token', token)
             const validacao_login_1 = localStorage.setItem('login-1' , JSON.stringify(login))
             const validacao_senha_1 = localStorage.setItem('senha-1' , JSON.stringify(senha))
             window.location.href = '../loading/index.html'
-        },800)
+        },5000)
         
     }else if( matri.value === login_2 && password.value === senha_2){
-        btn.setAttribute('id', 'passed')
+        btn.setAttribute('class', 'passed');       
+        btn.value = 'Redirecionando...';
         setTimeout(function(){
             localStorage.setItem('token', token)
             const validacao_login_2 = localStorage.setItem('login-2' , JSON.stringify(login_2))
