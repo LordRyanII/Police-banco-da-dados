@@ -1,12 +1,12 @@
-import express from "express";
 // import fetch from 'node-fetch';
+import express from "express";
+import path from 'path'
+const __dirname = path.dirname(new URL(import.meta.url).pathname);
 
 const app = express();
 
-app.get('/', (req, res) =>{
-    res.send()
-})
+app.use(express.static(path.join(__dirname,'front-end')));
 
 app.listen(8000, ()=>{
     console.log('Aplicação rodando na porta 8000');
-})
+});
